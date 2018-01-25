@@ -1,0 +1,7 @@
+CREATE TABLE customer (
+'id' INTEGER NOT NULL SERIALIZABLE,
+'firstName' VARCHAR(255),
+'lastName' VARCHAR(255),
+'birthdate' VARCHAR(255),
+PRIMARY KEY ('id')
+)
